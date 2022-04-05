@@ -1,0 +1,73 @@
+body{
+    background-color: #696969;
+}
+
+.informacoes {
+    background-color: #575757;
+    border: solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: rgb(197, 197, 197);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.filmes {
+    display: flex;
+    justify-content: center;
+}
+
+.timeFavorito img{
+    border: solid black;
+    margin-right: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    max-width: 162px;
+    max-height: 162px;
+    width: auto;
+    height: auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.musicasFavoritas img{
+    border: solid black;
+    border-radius: 20px;
+    max-width: 162px;
+    max-height: 162px;
+    width: auto;
+    height: auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.filmesFavoritos img {
+    border: solid black;
+    border-radius: 20px;
+    max-width: 324px;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
