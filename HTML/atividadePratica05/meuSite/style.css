@@ -1,5 +1,7 @@
-body{
+body, html{
     background-color: #696969;
+    width: 100%;
+    height: 100%;
 }
 
 .informacoes {
@@ -76,22 +78,43 @@ body{
     width: 100%;
     height: 100%;
     background-image: url(./imagens/timao1.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    
-    width: 50%;
+    width: 75%;
     background-color: #696969;
     border: solid black;
     border-radius: 10px;
     padding: 3px;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.titulos img{
+    border: solid black;
+    margin: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.titulos {
+    font-size: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
