@@ -1,0 +1,68 @@
+body {
+    background-color: #000;
+}
+
+header {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #470303;
+    height: 50px;
+    padding-top: 10px;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+menu {
+    font-size: 15px;
+    position: absolute;
+    top: 7px;
+    text-decoration: none;
+    background-color: #330101;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.videos01E02 {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.video3 {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+div img{
+    width: 480px;
+    height: 270px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    object-fit: cover;
+    border: solid #550202 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.musicaFundo {
+    display: block;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
