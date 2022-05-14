@@ -1,0 +1,23 @@
+table, td, th, tr{
+    background-color: blue;
+    border: solid 2px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.meia td {
+    background-color: green;
+    color: white;
+}
+
+.blusa{
+    background-color: red;
+    color: white;
+}
+
+.valorCalca{
+    background-color: yellow;
+}
+
+
+

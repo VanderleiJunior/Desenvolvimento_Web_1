@@ -1,5 +1,8 @@
 body {
     background-color: #000;
+    background-image: url(./midia/background01.jpg);
+    background-size: 100%;
+    color: white;
 }
 
 header {
@@ -66,3 +69,8 @@ div img{
     bottom: 0px;
 }
 
+.trailer {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
